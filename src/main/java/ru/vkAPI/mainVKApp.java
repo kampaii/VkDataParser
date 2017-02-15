@@ -22,7 +22,7 @@ public class mainVKApp {
 
         VKWorker vk = new VKWorker();
         System.out.println("helloworld");
-
+        System.out.println("do some shit");
         List<WallpostFull> posts = vk.getGroupWall(vk.getGroupId(searchedGroup),100);
         System.out.println(posts.size());
         WallpostFull post = posts.get(0);
